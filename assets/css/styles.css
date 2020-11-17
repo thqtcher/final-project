@@ -1,0 +1,85 @@
+
+/* css */
+body{
+  background-color: rgb(112, 160, 175);
+  padding-bottom: 50px;
+  font-family: Georgia;
+}
+h1{
+  font-size: 20px;
+  color: rgb(234,235,237);
+  padding-top: 15px;
+  text-align: center;
+}
+h2{
+  font-size: 20px;
+  color: rgb(234,235,237);
+  text-align: center;
+}
+h3{
+  font-size: 60px;
+  color: rgb(51,30,56);
+  text-align: center;
+  padding-bottom:10px;
+}
+h4{
+  font-size: 30px;
+  color: rgb(51,30,56);
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+h5{
+
+  font-size: 20px;
+  color: rgb(234,235,237);
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 100px;
+}
+h6{
+  font-size: 30px;
+  color: rgb(51,30,56);
+  text-align: center;
+}
+p{
+  font-size: 20px;
+  color: rgb(234,235,237);
+  text-align: center;
+}
+img{
+  margin-top:60px;
+  padding-bottom: 30px;
+}
+.vl{
+  border-left: 1px solid;
+  border-color: rgba(234,235,237,.4);
+  height: 230px;
+  margin-left: 40px;
+}
+.tasks {
+  height: 80px;
+  width: 80px;
+  background-color: rgb(51,30,56);
+  border-radius: 50%;
+  display: inline-block;
+}
+.container {
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+  background-color: rgb(112, 105, 147);
+}
+.vl{
+    display: block;
+}
+@media (max-width: 1200px)
+{
+    .vl{
+        display: none;
+    }
+    h5{
+      padding-left: 40px;
+    }
+}
