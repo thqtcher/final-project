@@ -10,6 +10,7 @@ request.onreadystatechange = function() {
 request.open("GET", "https://whitscustard.com", true);
 request.send();
 */
+/*
 $.ajax({
           headers: { "Accept": "application/json", "Access-Control-Allow-Origin": "*"},
           type: 'GET',
@@ -21,4 +22,4 @@ $.ajax({
           success: function(data, textStatus, request){
               console.log(data);
           }
-});
+});*/
