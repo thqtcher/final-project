@@ -5,22 +5,33 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>Assignment 4</title>
+<title>Website Usability Tool</title>
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<link rel="stylesheet" href="assets/css/styles.css">
+<link id = "changeStyle" rel="stylesheet" href="assets/css/styles2.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+<!-- visible content goes here -->
 <body>
+  <h3 id="instructions">Instructions:</h3>
+  <p id="description">Below you are prompted with different websites you can take a usability test for.
+  Once you first load whichever website you choose you will notice that it is all "jumbled" up. You will then
+begin taking a timed usability test for this website. Upon completion of this initial usability test you will then
+load the page to its normal state and be prompted to take the same usability test. To begin, select a website below
+and hit the green button. If at any point you run into any issues refresh the page and start over. (Note: to bypass
+cors I use an API made by herokuapp that enables crossorigin requests. Because of this, the content might take a minute to
+load or ultimately fail to load every once in a while.)</p>
+  <select name="websites" id="websites">
+      <option value="0">Craigslist (Incomplete)</option>
+      <option value="1">Cooking For Engineers</option>
+  </select>
   <button id="btnLaunchSite">
-    <i class="material-icons">done</i>
-      Launch
+    <i class="material-icons">done_outline</i>
   </button>
+
   <div class="container-thqtcher">
   </div>
-<!-- visible content goes here -->
-
 
 <!-- links to javascripts -->
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>

@@ -5,21 +5,11 @@
   padding-right: 400px;
   position: relative;
 }
+#tasks{
+	color: grey;
+}
 .tasks{
   left:200px;
-}
-#btnLaunchSite {
-  position: fixed;
-  right: 10px;
-  top: 100px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: red;
-  color: white;
-  cursor: pointer;
-  outline: none;
-  z-index: 100;
 }
 @media (max-width: 1200px)
 {
