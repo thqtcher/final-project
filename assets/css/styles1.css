@@ -226,8 +226,9 @@ body {
 	margin:0 auto;
 }
 #tasks{
-	position:static;
-	margin-left: 80%;
+	position:fixed;
+	top:0px;
+	left:0px;
 	background-color: grey;
 }
 #articleheader {

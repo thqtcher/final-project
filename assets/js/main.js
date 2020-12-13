@@ -1,7 +1,7 @@
     corsBypass = 'https://cors-anywhere.herokuapp.com/'
     done = false;
     pageUrls = [
-      'https://charlotte.craigslist.org',
+      'https://www.blackpeoplemeet.com',
       'http://www.cookingforengineers.com'
 		];
     tasks0 = [
@@ -18,7 +18,6 @@
     btnLaunchSite.addEventListener("click", function () {
       startTimer();
       arrayIndex = document.getElementById("websites").value;
-      console.log(arrayIndex);
       allTasks = [
         tasks0,
         tasks1
@@ -46,7 +45,6 @@
       document.body.appendChild(parent);
       finalUrl = corsBypass + pageUrls[arrayIndex];
       sheet = 'assets/css/styles' + arrayIndex + '.css';
-      console.log(sheet);
     document.getElementById("btnLaunchSite").remove();
     document.getElementById("websites").remove();
     document.getElementById("instructions").remove();
@@ -60,7 +58,6 @@
         data = data.replaceAll('/article/346/GastroMax-Slotted-Turner-Spatula','#3 onclick="countTasks(arrayIndex,tasks1[2])" id="spatula"');
           $(".container-thqtcher").html('<div data="' + data);
       }).promise().done( function( obj ) {
-        console.log("randomizing")
         try{
           $('.movable').each(function(i, element){
             var x = Math.floor((Math.random() * 500) + 1);;
@@ -75,7 +72,6 @@
   function countTasks(arrayIndex,eachTask){
         var clean = false;
         var count = 0;
-        console.log(eachTask);
         document.getElementById(eachTask).remove();
         if(document.getElementById(eachTask) != null){
           document.getElementById(eachTask).remove();
@@ -88,7 +84,6 @@
             count++;
           }
         }
-        console.log(count);
         if(count == tasks.length){
               endTimer();
               clean = true;
