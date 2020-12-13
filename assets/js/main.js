@@ -29,15 +29,15 @@
       parent.setAttribute("size","5");
       child0 = document.createElement('option')
       child0.value = "0";
-      child0.innerHTML = "Find the link to the " + tasks[0] + " on the page.";
+      child0.innerHTML = "Find and click on the link to the " + tasks[0] + " on the page.";
       child1 = document.createElement('option')
       child2 = document.createElement('option')
       child2.value = "1";
-      child2.innerHTML = "Find the link to the " + tasks[1] + " on the page.";
+      child2.innerHTML = "Find and click on the link to the " + tasks[1] + " on the page.";
       child3 = document.createElement('option')
       child4 = document.createElement('option')
       child4.value = "2";
-      child4.innerHTML = "Find the link to the " + tasks[2] + " on the page.";
+      child4.innerHTML = "Find and click on the link to the " + tasks[2] + " on the page.";
       parent.appendChild(child0);
       parent.appendChild(child1);
       parent.appendChild(child2);

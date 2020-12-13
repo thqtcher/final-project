@@ -227,6 +227,7 @@ body {
 }
 #tasks{
 	position:static;
+	margin-left: 80%;
 	background-color: grey;
 }
 #articleheader {
